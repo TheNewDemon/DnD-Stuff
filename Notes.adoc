@@ -1,0 +1,474 @@
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title: Contents
+
+:description: Noctis Character Stuff
+:keywords: AsciiDoc
+:imagesdir: ./img
+:source-highlighter: prettify
+
+= Artificer Notes - Noctis
+
+== Lingo
+* Pbtpd = Proficiency bonus times per day
+* SR: short rest
+* LR: long rest
+* BA: bonus action
+* AA: attack action
+* IM: Intelligence Modifier
+* CM: Constitution Modifier
+* V: Vocal (Components)
+* M: Material (Components)
+* S: Semantic (Components)
+* 1R: one round
+* 1hC: spell needs concentration and has duration of one hour
+* R: ritual spell
+* A: Artificer spell
+* A+: Artificer subclass spell (doesn't count towards prepared spells)
+* W: Wizard spell
+* M*: special spell material requirement (Artificer)
+
+== Character Sheet
+22.05.2023
+
+image::Character_Sheet.png[Character Sheet Noctis]
+
+== Character Choices
+=== Race
+[%hardbreaks]
+*Shadar-Kai*
+Creature Type: Humanoid / Elf
+Size: Medium - 173cm
+Speed: 30ft
+ASI: +2 Con / +1 Char -> Tasha's rules for Custom ASIs
+
+[#racial_perks]
+==== Perks
+[%hardbreaks]
+Darkvision: 60feet
+Fey Ancestry: [.yellow]#Advantage on Charmed saves#
+Resistance: [.yellow]#Necrotic damage#
+Trance: Cannot sleep (always Conscious) + [.yellow]#Gain 2 weapon or tool prof. per long rest#
+Languages: Common and Dwarfen
+Proficiency: Perception
+*Blessing of the Raven Queen:* Pbtpd 30ft teleport + Res. to all dmg. til start of my next turn
+
+=== Background
+
+Bounty-Hunter
+
+==== Perks
+[%hardbreaks]
+Background feature: Ear to the Ground -> I have connections to secret underground societies contacts.
+Proficiency: Stealth, Deception / Carpenter's Tools, Wind Instruments
+
+=== Class(es)
+
+[#_wizard]
+==== Wizard
+
+Primarily for getting "Shadowblade" and "Bladesong"
+
+===== Perks
+[%hardbreaks]
+HP Dice: D6
+Spellcasting + Ritualcasting: Intelligence based which is the same as Artificer
+Cantrips: Sword Burst, Minor Illusion, Mending
+Arcane Recovery: SR recover lvl 1 spell slot
+Arcane Tradition: [.yellow]#Bladesinging#
+
+[#bladesong]
+===== [.yellow]#Bladesong#
+
+* BA to start
+* Duration 1min
+* Can use if I wear no medium, heavy armor, or shield, and I am not making a weapon attack with two hands
+* Benefits:
+** Bonus to AC equal to IM
+** Walking speed +10
+** Advantage on Acrobatics Checks
+** Concentration Con save bonus equal to IM
+
+==== Artificer
+HP Dice: D8 +
+Proficiency:
+
+* Armor: Light, Medium, Shields
+* Weapon: Simple Weapons, Firearm
+* Tool: Thieves, Tinkers and Mason's Tools
+* Saving Throw: Constitution, Intelligence
+* Skill: Arcana, Sleight of Hand
+
+===== Perks
+[.yellow]#Magical Tinkering#: +
+Give a nonmagical object (max 5) one of the following magical property
+
+* The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet
+* Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long
+* The object continuously emits your choice of an odor or a nonverbal sound. The chosen phenomenon is perceivable up to 10 feet away
+* A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements
+
+[.yellow]#Spellcasting#:
+
+* Uses Intelligence for casting
+* All Artificer spells have a M-component for a tool or infusion as a spellcasting focus
+* Artificers (same as Wizards) are [.yellow]#Prepared Caster# that means they can change their spells every LR.
+
+Cantrips: Booming Blade, Green-Flame Blade
+
+[%hardbreaks]
+[.yellow]#Infuse Item#:
+Every LR you can choose items to imbue and turn them into infusions. Infusions known and active depend on level
+
+* Level 2: Infusions Known = 4 / Infusions Active = 2
+* Level 6: Infusions Known = 6 / Infusions Active = 3
+* Level 10: Infusions Known = 8 / Infusions Active = 4
+* Level 14: Infusions Known = 10 / Infusions Active = 5
+* Level 18: Infusions Known = 12 / Infusions Active = 6
+
+[#_subclass_yellowforge_adept]
+===== Subclass: [.yellow]#Forge Adept#
+
+'''
+
+Tool Proficiency: Smith's Tools +
+[.yellow]#Spells#: (These can be prepared in addition to other spells and count as artificer spells)
+
+* Level 3 -> Armor of Agathys, *Shield*
+* Level 5 -> Shatter, Mirror Image
+* Level 9 -> Thunder Step, *Counterspell*
+* Level 13 -> *Death Ward*, Fire Shield
+* Level 17 -> Temporal Shunt, Steel Wind Strike
+
+[%hardbreaks]
+Battle Ready:
+--> Proficiency with martial weapons + when attacking with a magical weapon can use IM for attack.
+
+[.red]#*Ghall'Shaarat:*# +
+The big one
+
+Main features:
+
+* Is an Infusion, but doesn't count towards the max infusions active or learned
+** This means it can be used as a spell focus
+** This must be a melee weapon, but it can be a magic weapon ;)
+* Attacks with this weapon count as magical for the sake of overcoming resistances and for the [.yellow]#Battle Ready# feature
+* The weapon gains a +1 (+2 level 8 / +3 level 13) to attack and damage rolls
+* The weapon gains either one of _Finesse, Light, Versatile, or Reach_ Property
+** Light and Versatile can't be used on heavy and two-handed weapons
+** Properties can't be used on weapons that already have the property
+* The weapon gains the _thrown_ and _returning_ properties and has a thrown range of 20/60 feet (30/90 level 9 / 40/120 level 15)
+* If the weapon is on the same plane of existence as me, I can use a BA to make it reappear anywhere within 5 feet.
+* I am the only one who can access the benefits of this weapon and to others it behaves like the original weapon did.
+
+Extra Attack:
+
+[source,text]
+----
+Starting at 5th level, you can attack twice, instead of once,
+whenever you take the Attack action on your turn. Moreover,
+you can cast one of your cantrips in place of one of those
+attacks.
+----
+
+[.yellow]#Soul Bond#: +
+The Great Weapon Master of Dreams
+
+[source,text]
+----
+Starting at 5th level, you gain an even deeper bond with your
+creation, drawing on your own power to fuel it. Before
+taking the first attack action on your turn, you can choose to
+take 1d6 + 5 Necrotic damage (can't be reduced in any way)
+as well as a penalty to your attack rolls this round equal to
+your proficiency bonus to add force damage to your non
+bonus action attacks with your Ghaal’shaarat equal to twice
+your proficiency bonus.
+This feature does not work if you have the Great Weapon
+Master feat.
+You can use this feature proficiency bonus times per long
+rest.
+----
+
+[.yellow]#Warp Drive# +
+My favourite feature
+
+[source,text]
+----
+Once per turn when you hit a ranged melee attack with your
+Ghaal’shaarat and there is an unoccupied space within 5
+feet of your opponent you can choose to teleport to your
+weapon at a cost of 15 feet of your movement, regardless of
+the distance and ram your target. If you do, your weapon is
+instantly returned to your hand and your opponent takes
+1d6 extra force damage. This damage increases at level 15
+to 2d6.
+If your target is no more than one size bigger than you,
+they have to make a Strength (athletics) or Dexterity
+(acrobatics) saving throw (their choice) and beat your initial
+attack roll (you win if they're equal) or be either:
+
+° knocked prone
+
+or
+
+° pushed 10 feet back
+
+You can use this feature half your proficiency bonus times
+per short rest (rounded up).
+----
+
+Optional feature: [.yellow]#Sentience#
+
+[source,text]
+----
+While continuously improving and training with your
+weapon you feel something awakening inside it. First just
+single words whispered in your mind or slight movements of
+the weapon develop into sentences and guided weapon
+swings.
+Your Ghaal’shaarat counts as a sentient weapon for the
+sake of other effects. Your weapon knows your languages
+and can communicate telepathically with a creature up to
+100 feet away if the creature has line of sight with it.
+If the weapon is within 10 feet of you it possesses a fly
+speed of 10 feet but is able to move with you when you move
+at no movement cost.
+----
+
+Extra Attack +: +
+Just an attack more. The cantrip substitution remains.
+
+[.yellow]#True Ghall'Shaarat#: +
+cool flavor but sucks against other classes in comparison => further calculations needed.
+
+At level 15 the Ghall'Shaarat Infusion can have two more features that can be chosen of this list:
+
+* deal an extra 1d8 _Radiant, Necrotic or Force_ damage per hit
+* Immunity to _Frightened_ and _Stunned_ conditions as well as advantage on saving throws against _Restrained_.
+* +5 to passive perception and enables you to use IM for Initiative rolls instead of Dex and gives advantage on those as well.
+* BA expend one Hit Dice and gain that amount + IM + CM in HP
+* Flat +2 AC if weapon is on my character
+
+=== Summary
+
+==== Stats - 21.05.2023
+[%hardbreaks]
+Alignment: True Neutral
+Class dist: Wizard 2 / Artificer 3
+Hit Dice: 2d6 (Wizard), 3d8 (Artificer)
+HP Max: 52
+Speed: 30ft -> 40ft when <<bladesong>> is active
+Proficiency Bonus: +3
+Armor Class: 17 (Studded Leather) / 18 (Mage Armor) -> +5 when <<bladesong>> is active
+Inspiration: 0 :(
+Stats: Strength 4 / Dexterity 18 / Constitution 20 / Intelligence 20 / Wisdom 12 / Charisma 10
+Passive perception: 14
+Saving Throws: Constitution / Intelligence
+Height: 5'8 / 174cm
+Weight: 75kg
+Age: 258
+
+==== Proficiency:
+[.underline]#Weapon#: simple and martial weapons as well as firearms +
+[.underline]#Armor#: light and medium armor as well as shields +
+[.underline]#Skill#:
+
+* Arcana
+* Deception
+* Insight
+* Perception
+* Performance
+* Sleight of Hand
+* Stealth
+
+[.underline]#Tool#: +
+
+* Thieve
+* Tinker
+* Mason
+* Carpenter
+* Wind Instrument
+* Smith's Tools
+* + 2 every LR from Trance -> <<racial_perks>>
+
+[.underline]#Languages:#
+
+* Common
+* Elven
+* Dwarfen
+
+==== Perks
+* Night vision
+* Resistance against Necrotic
+* Trance
+* Advantage on being Charmed
+* Segen der Rabenkönigin -> <<racial_perks>>
+* Arcane Recovery -> <<_wizard>>
+* Magical Tinkering
+* Infusions
+* <<_subclass_yellowforge_adept>>
+** Battle Ready
+** Ghall'Shaarat
+** rest not unlocked yet
+* The right tool for the job
+* Spellcasting
+* Tool Expertise <<Artificer>>
+* Feats
+** None currently :(
+
+==== Spellcasting
+Cantrips: 2 Artificer / 3 Wizard
+
+* Booming Blade
+* Green-Flame Blade
+* Mending
+* Sword Burst
+* Minor Illusions
+
+[.yellow]#Prepared Spells#: +
+These spells are section in _always prepare [.yellow]#AP#_ and _can switch out [.yellow]#CSO#_, because as Mentioned above in the Spellcasting section, Wizards and Artificer have access to their entire spell list but can only choose a few of them per day to _prepare_. +
+They can change this list once per LR.
+
+To Pred: 22.05.2023
+
+* Wizard: 7
+* Artificer: 6
+
+[.yellow]#Special Interaction#: Ritual Casting +
+Wizards can ritual cast any spell within their spell book with the ritual cast feature without having the need to prepare them. +
+All spells I can ritual cast like that:
+
+Level 1:
+
+* Alarm V/S -> W
+* Comprehend Languages V/S -> W
+* Detect Magic V/S -> W
+* [.red]#Find Familiar# V/S/M -> W
+* Identify V/S/M (100gp pearl) -> W
+* Illusory Script S/M (10gp ink) -> W
+* Tenser's Floating Disk V/S
+* Unseen Servant V/S -> W
+
+Level 2:
+
+* Augury V/S/M (Taroth Cards) -> W
+* Gentle Repose V/S -> W
+* Magic Mouth V/S -> W
+* Skywrite V/S -> W
+* [.yellow]#Wristpocket# S -> W
+
+most of them aren't that good but free is free am I right.
+
+AP: +
+
+* 1st level
+** Shield V/S/M* -> A+
+** Armor of Agathys V/S/M* -> A+
+** Absorb Elements S/M* -> A
+** Cure Wounds V/S/M* -> A
+** Feather Fall V -> A
+** Charm Person -> W
+** False life -> W
+** Silvery Barbs -> W
+* 2nd level
+** Enhance Ability -> A
+** Rope Trick -> A
+** Vortex Warp -> A
+** Levitate -> W
+** Phantasmal Force -> W
+** [.yellow]#Shadow Blade# -> W
+** Scorching Ray -> W
+
+CSO:
+These are more consideration ig
+
+* Aid
+* Sanctuary
+* Mage Armor
+* Protection from Evil and Good
+
+== Rule interactions +
+
+( totally didn't spend 2 days writing all the stuff above ._.)
+
+These aren't supposed to be ordered and are just stuff I think is cool. +
+All the following ideas are AT LEAST *RAI* (Rules as intended).
+
+First of all I should clarify that my character is not even close to "good" Dpr (damage per round) compared to staple characters online, but that is exactly what I want. This character is supposed to DRIP with flavor and I think I have done a pretty good job so far. +
+Regardless I still try to optimize the damage I deal as much as possible so here you go.
+
+=== Hidden room Catector
+
+The description of the "Find familiar"-spell states that:
+[source,text]
+----
+[...] As an action, you can temporarily dismiss your familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. [...]
+----
+
+Because the spell doesn't state that I need to see the unoccupied space the familiar reappears in, this can be used to try to make the familiar reappear behind a wall. If the spell fails you know that there is nothing (besides wall ofc) and if it works I can use an Action to look through the eyes of my familiar and maybe even teleport to it with "Segen of the Raven Queen".
+
+=== Flying Gigachad
+
+Another thing regarding the "Find familiar"-spell
+
+[source]
+----
+A familiar can’t attack, but it can take other actions as normal.
+----
+
+"other actions" include but are not limited to _Cast A Spell action, Dash, Disengage, Dodge, Help, Hide, Ready, Search, and Use an Object_. Of course it has to still be logical because something like a seahorse familiar might have _some problems_ when trying to administer a health potion.
+
+=== John Malkovich effect
+
+The familiar is supposed to be seen as an extra party member. Stuff like perception Checks or Dex saving throws also need to be rolled by the familiar in some circumstances.
+
+Now that this is clear, when looking through the eyes of the familiar and rolling for perception while in this form results in the player and the familiar needing to roll.
+
+And by the way passive perception is still the floor for perception checks -> those checks are just for seeing if you can get higher than your passive perception. This eliminates not being able to see the most obvious things because of a bad roll and keeps the reason for it in the rules.
+
+=== "Can we fix it?"
+
+Short answer: Yes!
+
+Long answer: link:https://tabletopbuilds.com/complete-guide-to-tools-in-dnd-5e/#Masons_Tools[Yes, we can!]
+
+=== Alchemist supplies
+
+This is just a weird interaction between the Artificer infusion "Alchemy jug" and the apply poison to weapon feature. Basically a vial basic poison is worth 100gp and an alchemy jug needs 8 days to reach one of those. Also, you can use a vial of basic poison to coat your weapon in poison and add poison damage to each hit.
+
+Well so far so good, but you can skip the step in between and coat your weapon directly from the alchemy jug, and it's having the same effect. I guess this is to prevent the infinite money glitch of alchemy jug but yeah.
+
+
+=== This is.. Web.. right?
+
+There is an interaction between the "Web"-spell and flying creatures. Web specifically notes that it needs some kind of anchorpoint to... anchor between. if it doesn't have this the spell ends at the start of your *next turn*.
+
+This means that if a Dragon starts its turn in the _air-web_ it still has to make the save and on a fail has his movement reduced to 0 and is restrained. And we all of course what know what happens when a flying creature has its speed reduced to 0 by other means than _just flying_ right?
+
+It crashed to the ground and takes 1d6 per 10ft fall in fall damage.
+
+
+=== Your body is a temple
+
+There is RAW a way to get infinite Spell-wrought tattoos as an Artificer, but let's be honest I would _never_ use that... right?
+
+=== The one who shall not be names
+
+Bag of holding bomb. We know, but we won't use... probably maybe possibly.
+
+=== Sleepw... uhh casting
+
+The description of Long Resting states that:
+
+[source,text]
+----
+A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting spells, or similar adventuring activity—the characters must begin the rest again to gain any benefit from it.
+----
+
+This means that if the casting of a spell needs to be shorter than 1h to fall into that category. This is probably made for short rests to not just be a time skip or something, but what this rule allows us to do is using a spell-slot for the casting of a spell with a long duration and then after finishing the long rest immediately regaining that slot. Basically casting that spell for free.
+
+Another action you can do during (egl. after) a short rest is [.yellow]#identifying a magic item# DMG p.136. This allows for an unknown spell effect on a weapon to become known. The other way to identify such a thing is the _identify_-spell which is WAY more precise but if you can't spare the time (or whatever I am not your mom) this is a very good alternative.
+
+ANOTHER thing an Artificer or specifically someone with any tool proficiency can do during a short *OR* long rest is working on tool specific stuff, like repairing some wooden wall or working on a magic item _wink wink_.
