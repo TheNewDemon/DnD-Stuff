@@ -74,7 +74,7 @@ Primarily for getting "Shadowblade" and "Bladesong"
 [%hardbreaks]
 HP Dice: D6
 Spellcasting + Ritualcasting: Intelligence based which is the same as Artificer
-Cantrips: Sword Burst, Minor Illusion, Mending
+Cantrips: Mind Sliver, Minor Illusion, Shape Water
 Arcane Recovery: SR recover lvl 1 spell slot
 Arcane Tradition: [.yellow]#Bladesinging#
 
@@ -115,7 +115,7 @@ Give a nonmagical object (max 5) one of the following magical property
 * All Artificer spells have a M-component for a tool or infusion as a spellcasting focus
 * Artificers (same as Wizards) are [.yellow]#Prepared Caster# that means they can change their spells every LR.
 
-Cantrips: Booming Blade, Green-Flame Blade
+Cantrips: Booming Blade, Sword Burst
 
 [%hardbreaks]
 [.yellow]#Infuse Item#:
@@ -322,9 +322,9 @@ Age: 258
 Cantrips: 2 Artificer / 3 Wizard
 
 * Booming Blade
-* Green-Flame Blade
-* Mending
 * Sword Burst
+* Mind Sliver
+* Shape Water
 * Minor Illusions
 
 [.yellow]#Prepared Spells#: +
@@ -393,11 +393,11 @@ These are more consideration ig
 
 ( totally didn't spend 2 days writing all the stuff above ._.)
 
-These aren't supposed to be ordered and are just stuff I think is cool. +
+These aren't supposed to be ordered and are just things I think are cool. +
 All the following ideas are AT LEAST *RAI* (Rules as intended).
 
-First of all I should clarify that my character is not even close to "good" Dpr (damage per round) compared to staple characters online, but that is exactly what I want. This character is supposed to DRIP with flavor and I think I have done a pretty good job so far. +
-Regardless I still try to optimize the damage I deal as much as possible so here you go.
+First of all, I should clarify that my character is not even close to "good" Dpr (damage per round) compared to staple characters online, but that is exactly what I want. This character is supposed to DRIP with flavor, and I think I have done a pretty good job so far. +
+Regardless, I still try to optimize the damage I deal as much as possible.
 
 === Hidden room Catector
 
@@ -407,7 +407,7 @@ The description of the "Find familiar"-spell states that:
 [...] As an action, you can temporarily dismiss your familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. [...]
 ----
 
-Because the spell doesn't state that I need to see the unoccupied space the familiar reappears in, this can be used to try to make the familiar reappear behind a wall. If the spell fails you know that there is nothing (besides wall ofc) and if it works I can use an Action to look through the eyes of my familiar and maybe even teleport to it with "Segen of the Raven Queen".
+Because the spell doesn't state that I need to see the unoccupied space the familiar reappears in, this can be used to try to make the familiar reappear behind a wall. If the spell fails, you know that there is nothing (besides wall ofc) and if it works, I can use an Action to look through the eyes of my familiar and maybe even teleport to it with "Segen of the Raven Queen".
 
 === Flying Gigachad
 
@@ -418,15 +418,15 @@ Another thing regarding the "Find familiar"-spell
 A familiar can’t attack, but it can take other actions as normal.
 ----
 
-"other actions" include but are not limited to _Cast A Spell action, Dash, Disengage, Dodge, Help, Hide, Ready, Search, and Use an Object_. Of course it has to still be logical because something like a seahorse familiar might have _some problems_ when trying to administer a health potion.
+"[...] other actions" include but are not limited to _Cast A Spell action, Dash, Disengage, Dodge, Help, Hide, Ready, Search, and Use an Object_. Of course it has to still be logical because something like a seahorse familiar might have _some problems_ when trying to administer a health potion. [...]
 
 === John Malkovich effect
 
 The familiar is supposed to be seen as an extra party member. Stuff like perception Checks or Dex saving throws also need to be rolled by the familiar in some circumstances.
 
-Now that this is clear, when looking through the eyes of the familiar and rolling for perception while in this form results in the player and the familiar needing to roll.
+Now that this is clear, looking through the eyes of the familiar and rolling for perception while in this form results in the player and the familiar needing to roll.
 
-And by the way passive perception is still the floor for perception checks -> those checks are just for seeing if you can get higher than your passive perception. This eliminates not being able to see the most obvious things because of a bad roll and keeps the reason for it in the rules.
+And by the way, passive perception is still the floor for perception checks -> those checks are just for seeing if you can get higher than your passive perception. This eliminates not being able to see the most obvious things because of a bad roll and keeps the reason for it in the rules.
 
 === "Can we fix it?"
 
@@ -436,39 +436,64 @@ Long answer: link:https://tabletopbuilds.com/complete-guide-to-tools-in-dnd-5e/#
 
 === Alchemist supplies
 
-This is just a weird interaction between the Artificer infusion "Alchemy jug" and the apply poison to weapon feature. Basically a vial basic poison is worth 100gp and an alchemy jug needs 8 days to reach one of those. Also, you can use a vial of basic poison to coat your weapon in poison and add poison damage to each hit.
+This is just a weird interaction between the Artificer infusion "Alchemy Jug" and the apply poison to weapon feature. Basically, a vial of basic poison is worth 100gp and an alchemy jug needs 8 days to reach one of those. Also, you can use a vial of basic poison to coat your weapon in poison and add poison damage to each hit.
 
-Well so far so good, but you can skip the step in between and coat your weapon directly from the alchemy jug, and it's having the same effect. I guess this is to prevent the infinite money glitch of alchemy jug but yeah.
+Well, so far, so good, but you can skip the step in between and coat your weapon directly from the alchemy jug, and it's having the same effect. I guess this is to prevent the infinite money glitch of Alchemy Jug but yeah.
 
 
 === This is.. Web.. right?
 
-There is an interaction between the "Web"-spell and flying creatures. Web specifically notes that it needs some kind of anchorpoint to... anchor between. if it doesn't have this the spell ends at the start of your *next turn*.
+There is an interaction between the "Web"-spell and flying creatures. Web specifically notes that it needs some kind of anchorpoint to... anchor between. If it doesn't have this, the spell ends at the start of your *next turn*.
 
-This means that if a Dragon starts its turn in the _air-web_ it still has to make the save and on a fail has his movement reduced to 0 and is restrained. And we all of course what know what happens when a flying creature has its speed reduced to 0 by other means than _just flying_ right?
+This means that if a dragon starts its turn in the _air-web_ it still has to make the save, and on a fail his movement is reduced to 0, and he is restrained. And we all, of course know what happens when a flying creature has its speed reduced to 0 by other means than _just flying_ right?
 
-It crashed to the ground and takes 1d6 per 10ft fall in fall damage.
+It crashed to the ground and takes 1d6 per 10ft in fall damage.
 
 
 === Your body is a temple
 
 There is RAW a way to get infinite Spell-wrought tattoos as an Artificer, but let's be honest I would _never_ use that... right?
 
-=== The one who shall not be names
+=== The one who shall not be named
 
 Bag of holding bomb. We know, but we won't use... probably maybe possibly.
 
 === Sleepw... uhh casting
 
-The description of Long Resting states that:
+The description of [.yellow]#Long Resting# states that:
 
 [source,text]
 ----
 A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting spells, or similar adventuring activity—the characters must begin the rest again to gain any benefit from it.
 ----
 
-This means that if the casting of a spell needs to be shorter than 1h to fall into that category. This is probably made for short rests to not just be a time skip or something, but what this rule allows us to do is using a spell-slot for the casting of a spell with a long duration and then after finishing the long rest immediately regaining that slot. Basically casting that spell for free.
+This means if the casting of a spell needs to be shorter than 1h to fall into that category. This is probably made for short rests to not just be a time skip or something, but what this rule allows us to do is use a spell-slot for the casting of a spell with a long duration and then, after finishing the long rest, immediately regaining that slot. Basically, casting that spell for free.
 
-Another action you can do during (egl. after) a short rest is [.yellow]#identifying a magic item# DMG p.136. This allows for an unknown spell effect on a weapon to become known. The other way to identify such a thing is the _identify_-spell which is WAY more precise but if you can't spare the time (or whatever I am not your mom) this is a very good alternative.
+Another action you can do during (e.g. after) a short rest is [.yellow]#identifying a magic item# DMG p.136. This allows for an unknown spell effect on a weapon to become known. The other way to identify such a thing is the _identify_-spell which is WAY more precise, but if you can't spare the time (or whatever, I am not your mom), this is a very good alternative.
 
-ANOTHER thing an Artificer or specifically someone with any tool proficiency can do during a short *OR* long rest is working on tool specific stuff, like repairing some wooden wall or working on a magic item _wink wink_.
+ANOTHER thing an Artificer (or specifically someone with any tool proficiency) can do during a short *OR* long rest is work on tool specific stuff, like repairing some wooden walls or working on a magic item _wink wink_.
+
+=== "Nur die besten Füße"
+
+[.yellow]#Feats# are an important part of my dnd experience... so here are the ones I aim to take:
+
+* Elven Accuracy - A level 4 (Ch level 6) / When I have advantage on an attack roll, I can reroll one die (basically having super advantage), and it's a half feat -> I can spend one point in wisdom to multiclass into cleric.
+* Eldritch Adept - When taking this you can choose one Warlock invocation. Sounds cool right? Well it has to be one without prerequisite because I am no warlock.
+** Mask of many Faces - My personal favorite. It's by far not the best but having the ability to change into anything and anyone AT WILL (...kinda), AT NO COST is really cool. I'll probably take this at character level 9 (if I survive that long).
+** Devil's Sight - Everyone else's favorite feature to take. It's "super darkvision" with more wonky rules, I guess. It's cool because you can see in magical and non-magical darkness which not many creatures can do. There is a way to absolutely break the game with this, but I am not interested in doing that xD. A feature of Eldritch Adept is to change the invocation on leveling up, so maybe I'll use this for a level.
+** Misty Visions - Also a really compelling choice. Basically, a bigger minor illusion at will I am sure if I think hard enough, I can think of a solution to any problem with this, but maybe not in this campaign.
+* Sentinel - I am definitely going to take this feat... wait I see a pattern. Opponents can't run away from me without provoking an opportunity attack, and if they do, their movement drops to 0. Another thing is if another creature makes an attack against someone other than me, I can use my reaction to attack the attacking creature and, in turn, reduce their speed to 0.
+** There is a funny interaction with flying creatures that I am going to exploit. When a dragon, for example attacks one of my allies while flying, I can make a ranged *melee* attack against that creature and reduce their speed to 0, and I don't think I really need to clarify what THAT means xD.
+* Alert - +5 to iniative, and I can never be surprised if I am conscious (which is all the time bc I am an elf), and invisible targets can't attack me with advantage.
+** The bonus to initiative is life or death for my character because of the Bladesong-feature, and it's generally better to act before the enemies. +
+Don't know what level I am adding this feat to my collection, I am doing it, don't worry.
+
+[underline]#Honorable Mentions:#
+
+* War Caster: Redundant for my character. Otherwise an amazing feat.
+* Aberrant Dragonmark: I love the flavor, but it doesn't really fit with my idea of the character.
+* Dual Wielder: I am going to dual wield most of the campaign, and it still sucks.
+* Skill Expert: I am seriously considering this, but only at high level.
+* Observant: I prefer Alert, but that's PO I guess.
+* Actor: For comboing with the mask of many faces. I mean yea but spending 2 feats for charisma flavoring when I have a score of 10? Nah I don't think so.
+* *Revenant Blade:* Sounds sick, huh? Yeah, it's not. It's okay, I felt the same way.
