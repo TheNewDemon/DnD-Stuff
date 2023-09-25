@@ -261,7 +261,7 @@ Hit Dice: 2d6 (Wizard), 3d8 (Artificer)
 HP Max: 52
 Speed: 30ft -> 40ft when <<bladesong>> is active
 Proficiency Bonus: +3
-Armor Class: 17 (Studded Leather) / 18 (Mage Armor) -> +5 when <<bladesong>> is active
+Armor Class: 16 (Studded Leather) / 17 (Mage Armor) -> +5 when <<bladesong>> is active + Infusions (+1 most of the time)
 Inspiration: 0 :(
 Stats: Strength 4 / Dexterity 18 / Constitution 20 / Intelligence 20 / Wisdom 12 / Charisma 10
 Passive perception: 14
@@ -276,6 +276,7 @@ Age: 258
 [.underline]#Skill#:
 
 * Arcana
+* Acrobatics (when Bladesong is active)
 * Deception
 * Insight
 * Perception
@@ -315,21 +316,49 @@ Age: 258
 * The right tool for the job
 * Spellcasting
 * Tool Expertise <<Artificer>>
-* Feats
+* [.yellow]#Feats#
 ** None currently :(
+* [.yellow]#Infusions#
+** Enhanced Defense
+** Spellwrought Tatoo - Aid (Familiar Ace)
+** Replicate magic Item - Alchemy Jug
+** Arm Launcher (Homebrew but it sucks and is just flavor)
+
+==== Wizard Spell book
+
+The Wizard learns 6 1st level spells from the Wizard table on the first level and 2 leveled spells which the wizard can cast on subsequent level.
+
+===== Current Spells in the Spell book
+
+[.yellow]#Inscribed:#
+
+* All Artificer Ritual spells (to ritual cast them without preparing them)
+* Shadow Blade
+
+[.yellow]#Learned via level up:#
+
+* Comprehend languages - lvl1 R
+* Find Familiar - lvl1 R
+* Mage Armor - lvl1
+* Magic Missile - lvl1
+* Protection from Evil and Good - lvl1
+* Silvery Barbs - lvl1
+* Phantasmal Force - lvl2
+* Suggestion - lvl2
 
 ==== Spellcasting
 Cantrips: 2 Artificer / 3 Wizard
 
 * Booming Blade
 * Sword Burst
-* Mind Sliver
+* Guidance
 * Shape Water
 * Minor Illusions
 
 [.yellow]#Prepared Spells#: +
-These spells are section in _always prepare [.yellow]#AP#_ and _can switch out [.yellow]#CSO#_, because as Mentioned above in the Spellcasting section, Wizards and Artificer have access to their entire spell list but can only choose a few of them per day to _prepare_. +
-They can change this list once per LR.
+These spells are section in _always prepare [.yellow]#AP#_ and _can switch out [.yellow]#CSO#_, because as Mentioned above in the Spellcasting section, [.red]#Wizards and Artificer have access to their entire spell list but can only choose a few of them per day to _prepare_.# +
+Hi I was completely wrong about this :). This only counts for Artificer Wizards work differently. If you spend 2 seconds thinking about it a Wizard that has access to his entire spell list would be COMPLETELY broken(that's every spell in the game I think). They still can LEARN every spell in the game tho, but still can only prepare a few of them. They however can have access to their entire spell list like the artificer does. They just need to manually copy every spell from spell scrolls in their spell book. +
+They can change their prepared spells once per LR.
 
 To Pred: 22.05.2023
 
@@ -337,31 +366,25 @@ To Pred: 22.05.2023
 * Artificer: 6
 
 [.yellow]#Special Interaction#: Ritual Casting +
-Wizards can ritual cast any spell within their spell book with the ritual cast feature without having the need to prepare them. +
-All spells I can ritual cast like that:
+Wizards can ritual cast any spell within their spell book with the ritual cast feature without having the need to prepare them. This is still true, but I still have to have learned the spell at some point before (via level up or scribing). +
 
-Level 1:
+lvl1:
 
-* Alarm V/S -> W
-* Comprehend Languages V/S -> W
-* Detect Magic V/S -> W
-* [.red]#Find Familiar# V/S/M -> W
-* Identify V/S/M (100gp pearl) -> W
-* Illusory Script S/M (10gp ink) -> W
-* Tenser's Floating Disk V/S
-* Unseen Servant V/S -> W
+* Alarm (not currently)
+* Comprehend languages
+* Detect Magic (not currently)
+* Find Familiar
+* Identify (not currently)
+* Purify Food and Drink (not currently)
 
-Level 2:
+lvl2:
 
-* Augury V/S/M (Taroth Cards) -> W
-* Gentle Repose V/S -> W
-* Magic Mouth V/S -> W
-* Skywrite V/S -> W
-* [.yellow]#Wristpocket# S -> W
+* Magic Mouth (not currently)
+* Skywrite (not currently)
 
-most of them aren't that good but free is free am I right.
+most of them aren't that good but free is free am I right? - No.
 
-AP: +
+AP - Currently Prepared: +
 
 * 1st level
 ** Shield V/S/M* -> A+
@@ -369,17 +392,17 @@ AP: +
 ** Absorb Elements S/M* -> A
 ** Cure Wounds V/S/M* -> A
 ** Feather Fall V -> A
-** Charm Person -> W
-** False life -> W
+** Mage Armor -> W
+** Magic Missile -> W
+** Protection from Evil and Good -> W
 ** Silvery Barbs -> W
 * 2nd level
 ** Enhance Ability -> A
 ** Rope Trick -> A
 ** Vortex Warp -> A
-** Levitate -> W
 ** Phantasmal Force -> W
 ** [.yellow]#Shadow Blade# -> W
-** Scorching Ray -> W
+** Suggestion -> W
 
 CSO:
 These are more consideration ig
@@ -387,11 +410,10 @@ These are more consideration ig
 * Aid
 * Sanctuary
 * Mage Armor
-* Protection from Evil and Good
 
 == Rule interactions +
 
-( totally didn't spend 2 days writing all the stuff above ._.)
+( totally didn't spend 2 days writing all the stuff above .\_. and it was still fckn wrong __sigh__)
 
 These aren't supposed to be ordered and are just things I think are cool. +
 All the following ideas are AT LEAST *RAI* (Rules as intended).
@@ -475,25 +497,31 @@ ANOTHER thing an Artificer (or specifically someone with any tool proficiency) c
 
 === "Nur die besten Füße"
 
-[.yellow]#Feats# are an important part of my dnd experience... so here are the ones I aim to take:
+[.yellow]#Feats# are an important part of dnd... so here are the ones I aim to take:
 
 * Elven Accuracy - A level 4 (Ch level 6) / When I have advantage on an attack roll, I can reroll one die (basically having super advantage), and it's a half feat -> I can spend one point in wisdom to multiclass into cleric.
-* Eldritch Adept - When taking this you can choose one Warlock invocation. Sounds cool right? Well it has to be one without prerequisite because I am no warlock.
-** Mask of many Faces - My personal favorite. It's by far not the best but having the ability to change into anything and anyone AT WILL (...kinda), AT NO COST is really cool. I'll probably take this at character level 9 (if I survive that long).
+* Eldritch Adept - When taking this you can choose one Warlock invocation. Sounds cool right? Well, you have to be a Warlock that fulfills the prerequisites, of an Invocation, in order to take it.
+** Mask of many Faces - My personal favorite. It's by far not the best but having the ability to change into anything and anyone AT WILL (...kinda), AT NO COST is really cool. I'll probably take this at character level 12 (if I survive that long).
 ** Devil's Sight - Everyone else's favorite feature to take. It's "super darkvision" with more wonky rules, I guess. It's cool because you can see in magical and non-magical darkness which not many creatures can do. There is a way to absolutely break the game with this, but I am not interested in doing that xD. A feature of Eldritch Adept is to change the invocation on leveling up, so maybe I'll use this for a level.
 ** Misty Visions - Also a really compelling choice. Basically, a bigger minor illusion at will I am sure if I think hard enough, I can think of a solution to any problem with this, but maybe not in this campaign.
 * Sentinel - I am definitely going to take this feat... wait I see a pattern. Opponents can't run away from me without provoking an opportunity attack, and if they do, their movement drops to 0. Another thing is if another creature makes an attack against someone other than me, I can use my reaction to attack the attacking creature and, in turn, reduce their speed to 0.
 ** There is a funny interaction with flying creatures that I am going to exploit. When a dragon, for example attacks one of my allies while flying, I can make a ranged *melee* attack against that creature and reduce their speed to 0, and I don't think I really need to clarify what THAT means xD.
 * Alert - +5 to iniative, and I can never be surprised if I am conscious (which is all the time bc I am an elf), and invisible targets can't attack me with advantage.
-** The bonus to initiative is life or death for my character because of the Bladesong-feature, and it's generally better to act before the enemies. +
-Don't know what level I am adding this feat to my collection, I am doing it, don't worry.
+** The bonus to initiative is life or death for my character because of the Bladesong-feature, and it's generally better to act before the enemies.
 
 [underline]#Honorable Mentions:#
 
-* War Caster: Redundant for my character. Otherwise an amazing feat.
+* War Caster: Redundant for my character. Otherwise, an amazing feat.
 * Aberrant Dragonmark: I love the flavor, but it doesn't really fit with my idea of the character.
 * Dual Wielder: I am going to dual wield most of the campaign, and it still sucks.
 * Skill Expert: I am seriously considering this, but only at high level.
 * Observant: I prefer Alert, but that's PO I guess.
 * Actor: For comboing with the mask of many faces. I mean yea but spending 2 feats for charisma flavoring when I have a score of 10? Nah I don't think so.
-* *Revenant Blade:* Sounds sick, huh? Yeah, it's not. It's okay, I felt the same way.
+* *Revenant Blade:* Sounds sick, huh? Yeah, it's not... It's garbage, I felt the same way.
+
+=== No, not those kinds of Infusions
+
+There are some BUSTED low level Infusion interactions that can happen when playing Artificer... which I am not going to use (probably), but wanted to mention anyway. I am not _really_ a fan of the low-level options a vanilla Artificer gets access to power wise, but I am also not a hater. +
+My plan for the future of my Infusions is:
+
+*
