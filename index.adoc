@@ -136,7 +136,7 @@ Tool Proficiency: Smith's Tools +
 [.yellow]#Spells#: (These can be prepared in addition to other spells and count as artificer spells)
 
 * Level 3 -> Armor of Agathys, *Shield*
-* Level 5 -> Shatter, Mirror Image
+* Level 5 -> Shatter, *Pass without Trace*
 * Level 9 -> Thunder Step, *Counterspell*
 * Level 13 -> *Death Ward*, Fire Shield
 * Level 17 -> Temporal Shunt, Steel Wind Strike
@@ -155,8 +155,7 @@ Main features:
 ** This must be a melee weapon, but it can be a magic weapon ;)
 * Attacks with this weapon count as magical for the sake of overcoming resistances and for the [.yellow]#Battle Ready# feature
 * The weapon gains a +1 (+2 level 8 / +3 level 13) to attack and damage rolls
-* The weapon gains either one of _Finesse, Light, Versatile, or Reach_ Property
-** Light and Versatile can't be used on heavy and two-handed weapons
+* The weapon gains either one of _Light, Versatile, or Reach_ Property
 ** Properties can't be used on weapons that already have the property
 * The weapon gains the _thrown_ and _returning_ properties and has a thrown range of 20/60 feet (30/90 level 9 / 40/120 level 15)
 * If the weapon is on the same plane of existence as me, I can use a BA to make it reappear anywhere within 5 feet.
@@ -187,8 +186,6 @@ bonus action attacks with your Ghaal’shaarat equal to twice
 your proficiency bonus.
 This feature does not work if you have the Great Weapon
 Master feat.
-You can use this feature proficiency bonus times per long
-rest.
 ----
 
 [.yellow]#Warp Drive# +
@@ -215,8 +212,7 @@ or
 
 ° pushed 10 feet back
 
-You can use this feature half your proficiency bonus times
-per short rest (rounded up).
+You can use this proficiency bonus times per short rest.
 ----
 
 Optional feature: [.yellow]#Sentience#
@@ -233,8 +229,7 @@ sake of other effects. Your weapon knows your languages
 and can communicate telepathically with a creature up to
 100 feet away if the creature has line of sight with it.
 If the weapon is within 10 feet of you it possesses a fly
-speed of 10 feet but is able to move with you when you move
-at no movement cost.
+speed of 10 feet but is able to move with you when you move at no movement cost.
 ----
 
 Extra Attack +: +
