@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="description" content="Noctis Character Stuff">
 <meta name="keywords" content="AsciiDoc">
 <title>Artificer Notes - Noctis</title>
@@ -140,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #header::after,#content::after,#footnotes::after,#footer::after{clear:both}
 #content{margin-top:1.25em}
 #content::before{content:none}
-#header>h1:first-child{color:rgba(255,255,255,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
 #header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
@@ -210,13 +210,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -395,7 +392,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -480,7 +477,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_stats_21_05_2023">3.4.1. Stats - 21.05.2023</a></li>
 <li><a href="#_proficiency">3.4.2. Proficiency:</a></li>
 <li><a href="#_perks_4">3.4.3. Perks</a></li>
-<li><a href="#_spellcasting">3.4.4. Spellcasting</a></li>
+<li><a href="#_wizard_spell_book">3.4.4. Wizard Spell book</a>
+<ul class="sectlevel4">
+<li><a href="#_current_spells_in_the_spell_book">Current Spells in the Spell book</a></li>
+</ul>
+</li>
+<li><a href="#_spellcasting">3.4.5. Spellcasting</a></li>
 </ul>
 </li>
 </ul>
@@ -497,6 +499,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_the_one_who_shall_not_be_named">4.8. The one who shall not be named</a></li>
 <li><a href="#_sleepw_uhh_casting">4.9. Sleepw&#8230;&#8203; uhh casting</a></li>
 <li><a href="#_nur_die_besten_füße">4.10. "Nur die besten Füße"</a></li>
+<li><a href="#_no_not_those_kinds_of_infusions">4.11. No, not those kinds of Infusions</a></li>
 </ul>
 </li>
 </ul>
@@ -770,7 +773,7 @@ Every LR you can choose items to imbue and turn them into infusions. Infusions k
 <p>Level 3 &#8594; Armor of Agathys, <strong>Shield</strong></p>
 </li>
 <li>
-<p>Level 5 &#8594; Shatter, Mirror Image</p>
+<p>Level 5 &#8594; Shatter, <strong>Pass without Trace</strong></p>
 </li>
 <li>
 <p>Level 9 &#8594; Thunder Step, <strong>Counterspell</strong></p>
@@ -816,12 +819,9 @@ The big one</p>
 <p>The weapon gains a +1 (+2 level 8 / +3 level 13) to attack and damage rolls</p>
 </li>
 <li>
-<p>The weapon gains either one of <em>Finesse, Light, Versatile, or Reach</em> Property</p>
+<p>The weapon gains either one of <em>Light, Versatile, or Reach</em> Property</p>
 <div class="ulist">
 <ul>
-<li>
-<p>Light and Versatile can&#8217;t be used on heavy and two-handed weapons</p>
-</li>
 <li>
 <p>Properties can&#8217;t be used on weapons that already have the property</p>
 </li>
@@ -865,9 +865,7 @@ your proficiency bonus to add force damage to your non
 bonus action attacks with your Ghaal’shaarat equal to twice
 your proficiency bonus.
 This feature does not work if you have the Great Weapon
-Master feat.
-You can use this feature proficiency bonus times per long
-rest.</code></pre>
+Master feat.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -895,8 +893,7 @@ or
 
 ° pushed 10 feet back
 
-You can use this feature half your proficiency bonus times
-per short rest (rounded up).</code></pre>
+You can use this proficiency bonus times per short rest.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -914,8 +911,7 @@ sake of other effects. Your weapon knows your languages
 and can communicate telepathically with a creature up to
 100 feet away if the creature has line of sight with it.
 If the weapon is within 10 feet of you it possesses a fly
-speed of 10 feet but is able to move with you when you move
-at no movement cost.</code></pre>
+speed of 10 feet but is able to move with you when you move at no movement cost.</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -962,7 +958,7 @@ Hit Dice: 2d6 (Wizard), 3d8 (Artificer)<br>
 HP Max: 52<br>
 Speed: 30ft &#8594; 40ft when <a href="#bladesong"><span class="yellow">Bladesong</span></a> is active<br>
 Proficiency Bonus: +3<br>
-Armor Class: 17 (Studded Leather) / 18 (Mage Armor) &#8594; +5 when <a href="#bladesong"><span class="yellow">Bladesong</span></a> is active<br>
+Armor Class: 16 (Studded Leather) / 17 (Mage Armor) &#8594; +5 when <a href="#bladesong"><span class="yellow">Bladesong</span></a> is active + Infusions (+1 most of the time)<br>
 Inspiration: 0 :(<br>
 Stats: Strength 4 / Dexterity 18 / Constitution 20 / Intelligence 20 / Wisdom 12 / Charisma 10<br>
 Passive perception: 14<br>
@@ -983,6 +979,9 @@ Age: 258</p>
 <ul>
 <li>
 <p>Arcana</p>
+</li>
+<li>
+<p>Acrobatics (when Bladesong is active)</p>
 </li>
 <li>
 <p>Deception</p>
@@ -1103,7 +1102,7 @@ Age: 258</p>
 <p>Tool Expertise <a href="#_artificer">Artificer</a></p>
 </li>
 <li>
-<p>Feats</p>
+<p><span class="yellow">Feats</span></p>
 <div class="ulist">
 <ul>
 <li>
@@ -1112,11 +1111,83 @@ Age: 258</p>
 </ul>
 </div>
 </li>
+<li>
+<p><span class="yellow">Infusions</span></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Enhanced Defense</p>
+</li>
+<li>
+<p>Spellwrought Tatoo - Aid (Familiar Ace)</p>
+</li>
+<li>
+<p>Replicate magic Item - Alchemy Jug</p>
+</li>
+<li>
+<p>Arm Launcher (Homebrew but it sucks and is just flavor)</p>
+</li>
+</ul>
+</div>
+</li>
 </ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_spellcasting">3.4.4. Spellcasting</h4>
+<h4 id="_wizard_spell_book">3.4.4. Wizard Spell book</h4>
+<div class="paragraph">
+<p>The Wizard learns 6 1st level spells from the Wizard table on the first level and 2 leveled spells which the wizard can cast on subsequent level.</p>
+</div>
+<div class="sect4">
+<h5 id="_current_spells_in_the_spell_book">Current Spells in the Spell book</h5>
+<div class="paragraph">
+<p><span class="yellow">Inscribed:</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>All Artificer Ritual spells (to ritual cast them without preparing them)</p>
+</li>
+<li>
+<p>Shadow Blade</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="yellow">Learned via level up:</span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Comprehend languages - lvl1 R</p>
+</li>
+<li>
+<p>Find Familiar - lvl1 R</p>
+</li>
+<li>
+<p>Mage Armor - lvl1</p>
+</li>
+<li>
+<p>Magic Missile - lvl1</p>
+</li>
+<li>
+<p>Protection from Evil and Good - lvl1</p>
+</li>
+<li>
+<p>Silvery Barbs - lvl1</p>
+</li>
+<li>
+<p>Phantasmal Force - lvl2</p>
+</li>
+<li>
+<p>Suggestion - lvl2</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_spellcasting">3.4.5. Spellcasting</h4>
 <div class="paragraph">
 <p>Cantrips: 2 Artificer / 3 Wizard</p>
 </div>
@@ -1129,7 +1200,7 @@ Age: 258</p>
 <p>Sword Burst</p>
 </li>
 <li>
-<p>Mind Sliver</p>
+<p>Guidance</p>
 </li>
 <li>
 <p>Shape Water</p>
@@ -1141,8 +1212,9 @@ Age: 258</p>
 </div>
 <div class="paragraph">
 <p><span class="yellow">Prepared Spells</span>:<br>
-These spells are section in <em>always prepare <span class="yellow">AP</span></em> and <em>can switch out <span class="yellow">CSO</span></em>, because as Mentioned above in the Spellcasting section, Wizards and Artificer have access to their entire spell list but can only choose a few of them per day to <em>prepare</em>.<br>
-They can change this list once per LR.</p>
+These spells are section in <em>always prepare <span class="yellow">AP</span></em> and <em>can switch out <span class="yellow">CSO</span></em>, because as Mentioned above in the Spellcasting section, <span class="red">Wizards and Artificer have access to their entire spell list but can only choose a few of them per day to <em>prepare</em>.</span><br>
+Hi I was completely wrong about this :). This only counts for Artificer Wizards work differently. If you spend 2 seconds thinking about it a Wizard that has access to his entire spell list would be COMPLETELY broken(that&#8217;s every spell in the game I think). They still can LEARN every spell in the game tho, but still can only prepare a few of them. They however can have access to their entire spell list like the artificer does. They just need to manually copy every spell from spell scrolls in their spell book.<br>
+They can change their prepared spells once per LR.</p>
 </div>
 <div class="paragraph">
 <p>To Pred: 22.05.2023</p>
@@ -1159,67 +1231,51 @@ They can change this list once per LR.</p>
 </div>
 <div class="paragraph">
 <p><span class="yellow">Special Interaction</span>: Ritual Casting<br>
-Wizards can ritual cast any spell within their spell book with the ritual cast feature without having the need to prepare them.<br>
-All spells I can ritual cast like that:</p>
+Wizards can ritual cast any spell within their spell book with the ritual cast feature without having the need to prepare them. This is still true, but I still have to have learned the spell at some point before (via level up or scribing).<br></p>
 </div>
 <div class="paragraph">
-<p>Level 1:</p>
+<p>lvl1:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Alarm V/S &#8594; W</p>
+<p>Alarm (not currently)</p>
 </li>
 <li>
-<p>Comprehend Languages V/S &#8594; W</p>
+<p>Comprehend languages</p>
 </li>
 <li>
-<p>Detect Magic V/S &#8594; W</p>
+<p>Detect Magic (not currently)</p>
 </li>
 <li>
-<p><span class="red">Find Familiar</span> V/S/M &#8594; W</p>
+<p>Find Familiar</p>
 </li>
 <li>
-<p>Identify V/S/M (100gp pearl) &#8594; W</p>
+<p>Identify (not currently)</p>
 </li>
 <li>
-<p>Illusory Script S/M (10gp ink) &#8594; W</p>
-</li>
-<li>
-<p>Tenser&#8217;s Floating Disk V/S</p>
-</li>
-<li>
-<p>Unseen Servant V/S &#8594; W</p>
+<p>Purify Food and Drink (not currently)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Level 2:</p>
+<p>lvl2:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Augury V/S/M (Taroth Cards) &#8594; W</p>
+<p>Magic Mouth (not currently)</p>
 </li>
 <li>
-<p>Gentle Repose V/S &#8594; W</p>
-</li>
-<li>
-<p>Magic Mouth V/S &#8594; W</p>
-</li>
-<li>
-<p>Skywrite V/S &#8594; W</p>
-</li>
-<li>
-<p><span class="yellow">Wristpocket</span> S &#8594; W</p>
+<p>Skywrite (not currently)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>most of them aren&#8217;t that good but free is free am I right.</p>
+<p>most of them aren&#8217;t that good but free is free am I right? - No.</p>
 </div>
 <div class="paragraph">
-<p>AP:<br></p>
+<p>AP - Currently Prepared:<br></p>
 </div>
 <div class="ulist">
 <ul>
@@ -1243,10 +1299,13 @@ All spells I can ritual cast like that:</p>
 <p>Feather Fall V &#8594; A</p>
 </li>
 <li>
-<p>Charm Person &#8594; W</p>
+<p>Mage Armor &#8594; W</p>
 </li>
 <li>
-<p>False life &#8594; W</p>
+<p>Magic Missile &#8594; W</p>
+</li>
+<li>
+<p>Protection from Evil and Good &#8594; W</p>
 </li>
 <li>
 <p>Silvery Barbs &#8594; W</p>
@@ -1268,16 +1327,13 @@ All spells I can ritual cast like that:</p>
 <p>Vortex Warp &#8594; A</p>
 </li>
 <li>
-<p>Levitate &#8594; W</p>
-</li>
-<li>
 <p>Phantasmal Force &#8594; W</p>
 </li>
 <li>
 <p><span class="yellow">Shadow Blade</span> &#8594; W</p>
 </li>
 <li>
-<p>Scorching Ray &#8594; W</p>
+<p>Suggestion &#8594; W</p>
 </li>
 </ul>
 </div>
@@ -1299,9 +1355,6 @@ These are more consideration ig</p>
 <li>
 <p>Mage Armor</p>
 </li>
-<li>
-<p>Protection from Evil and Good</p>
-</li>
 </ul>
 </div>
 </div>
@@ -1312,7 +1365,7 @@ These are more consideration ig</p>
 <h2 id="_rule_interactions">4. Rule interactions<br></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>( totally didn&#8217;t spend 2 days writing all the stuff above ._.)</p>
+<p>( totally didn&#8217;t spend 2 days writing all the stuff above .\_. and it was still fckn wrong <em>sigh</em>)</p>
 </div>
 <div class="paragraph">
 <p>These aren&#8217;t supposed to be ordered and are just things I think are cool.<br>
@@ -1427,7 +1480,7 @@ Regardless, I still try to optimize the damage I deal as much as possible.</p>
 <div class="sect2">
 <h3 id="_nur_die_besten_füße">4.10. "Nur die besten Füße"</h3>
 <div class="paragraph">
-<p><span class="yellow">Feats</span> are an important part of my dnd experience&#8230;&#8203; so here are the ones I aim to take:</p>
+<p><span class="yellow">Feats</span> are an important part of dnd&#8230;&#8203; so here are the ones I aim to take:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1435,11 +1488,11 @@ Regardless, I still try to optimize the damage I deal as much as possible.</p>
 <p>Elven Accuracy - A level 4 (Ch level 6) / When I have advantage on an attack roll, I can reroll one die (basically having super advantage), and it&#8217;s a half feat &#8594; I can spend one point in wisdom to multiclass into cleric.</p>
 </li>
 <li>
-<p>Eldritch Adept - When taking this you can choose one Warlock invocation. Sounds cool right? Well it has to be one without prerequisite because I am no warlock.</p>
+<p>Eldritch Adept - When taking this you can choose one Warlock invocation. Sounds cool right? Well, you have to be a Warlock that fulfills the prerequisites, of an Invocation, in order to take it.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Mask of many Faces - My personal favorite. It&#8217;s by far not the best but having the ability to change into anything and anyone AT WILL (&#8230;&#8203;kinda), AT NO COST is really cool. I&#8217;ll probably take this at character level 9 (if I survive that long).</p>
+<p>Mask of many Faces - My personal favorite. It&#8217;s by far not the best but having the ability to change into anything and anyone AT WILL (&#8230;&#8203;kinda), AT NO COST is really cool. I&#8217;ll probably take this at character level 12 (if I survive that long).</p>
 </li>
 <li>
 <p>Devil&#8217;s Sight - Everyone else&#8217;s favorite feature to take. It&#8217;s "super darkvision" with more wonky rules, I guess. It&#8217;s cool because you can see in magical and non-magical darkness which not many creatures can do. There is a way to absolutely break the game with this, but I am not interested in doing that xD. A feature of Eldritch Adept is to change the invocation on leveling up, so maybe I&#8217;ll use this for a level.</p>
@@ -1465,8 +1518,7 @@ Regardless, I still try to optimize the damage I deal as much as possible.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>The bonus to initiative is life or death for my character because of the Bladesong-feature, and it&#8217;s generally better to act before the enemies.<br>
-Don&#8217;t know what level I am adding this feat to my collection, I am doing it, don&#8217;t worry.</p>
+<p>The bonus to initiative is life or death for my character because of the Bladesong-feature, and it&#8217;s generally better to act before the enemies.</p>
 </li>
 </ul>
 </div>
@@ -1479,7 +1531,7 @@ Don&#8217;t know what level I am adding this feat to my collection, I am doing i
 <div class="ulist">
 <ul>
 <li>
-<p>War Caster: Redundant for my character. Otherwise an amazing feat.</p>
+<p>War Caster: Redundant for my character. Otherwise, an amazing feat.</p>
 </li>
 <li>
 <p>Aberrant Dragonmark: I love the flavor, but it doesn&#8217;t really fit with my idea of the character.</p>
@@ -1497,9 +1549,19 @@ Don&#8217;t know what level I am adding this feat to my collection, I am doing i
 <p>Actor: For comboing with the mask of many faces. I mean yea but spending 2 feats for charisma flavoring when I have a score of 10? Nah I don&#8217;t think so.</p>
 </li>
 <li>
-<p><strong>Revenant Blade:</strong> Sounds sick, huh? Yeah, it&#8217;s not. It&#8217;s okay, I felt the same way.</p>
+<p><strong>Revenant Blade:</strong> Sounds sick, huh? Yeah, it&#8217;s not&#8230;&#8203; It&#8217;s garbage, I felt the same way.</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_no_not_those_kinds_of_infusions">4.11. No, not those kinds of Infusions</h3>
+<div class="paragraph">
+<p>There are some BUSTED low level Infusion interactions that can happen when playing Artificer&#8230;&#8203; which I am not going to use (probably), but wanted to mention anyway. I am not <em>really</em> a fan of the low-level options a vanilla Artificer gets access to power wise, but I am also not a hater.<br>
+My plan for the future of my Infusions is:</p>
+</div>
+<div class="paragraph">
+<p>*</p>
 </div>
 </div>
 </div>
@@ -1507,7 +1569,7 @@ Don&#8217;t know what level I am adding this feat to my collection, I am doing i
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-05-25 07:41:36 +0200
+Last updated 2023-10-07 14:38:51 +0200
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js"></script>
